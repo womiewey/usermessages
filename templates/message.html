@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <h2> Sign up Page </h2>
+        <div class = "container">
+           <form method = "POST">
+                {{form.as_p}}
+                {% csrf_token %}
+                <input type = "submit" value = "Send me a message!">
+           </form>
+        </div>
+    </body>
+</html>
